@@ -110,7 +110,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#0a0a0f] text-white flex flex-col">
       {/* Header */}
-      <header className="border-b border-white/8 px-4 py-4 flex-shrink-0">
+      <header className="border-b border-white/8 px-4 py-4 shrink-0">
         <div className="max-w-3xl mx-auto space-y-3">
           <div className="flex items-center justify-between">
             <div>
@@ -156,7 +156,7 @@ export default function Home() {
         )}
 
         {/* Input */}
-        <div className="px-4 pb-6 flex-shrink-0">
+        <div className="px-4 pb-6 shrink-0">
           <div className="flex gap-2 items-end">
             <textarea
               value={input}

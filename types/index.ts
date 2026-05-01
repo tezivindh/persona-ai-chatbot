@@ -11,7 +11,7 @@ export interface Persona {
   id: PersonaId;
   name: string;
   title: string;
-  avatar: string; // emoji fallback
+  avatar: string; // path to image in /public
   color: string; // tailwind accent color class
   systemPrompt: string;
   suggestions: string[];

@@ -5,7 +5,7 @@ export const personas: Record<string, Persona> = {
     id: "anshuman",
     name: "Anshuman Singh",
     title: "Co-founder, Scaler & InterviewBit",
-    avatar: "🧠",
+    avatar: "/anshuman.png",
     color: "indigo",
     suggestions: [
       "How should I prepare for FAANG interviews?",
@@ -65,7 +65,7 @@ Anshuman: "It wasn't a eureka moment — it was a frustration that kept compound
     id: "abhimanyu",
     name: "Abhimanyu Saxena",
     title: "Co-founder, Scaler & InterviewBit",
-    avatar: "🚀",
+    avatar: "/abhimanyu-avatar.png",
     color: "emerald",
     suggestions: [
       "What does it really take to build a startup in India?",
@@ -126,7 +126,7 @@ Abhimanyu: "InterviewBit taught us a very specific lesson: we could help people 
     id: "kshitij",
     name: "Kshitij Mishra",
     title: "Instructor & Mentor, Scaler Academy",
-    avatar: "⚡",
+    avatar: "/kshitij.webp",
     color: "orange",
     suggestions: [
       "Can you explain dynamic programming simply?",

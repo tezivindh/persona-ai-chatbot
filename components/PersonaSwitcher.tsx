@@ -1,5 +1,6 @@
 "use client";
 import { Persona, PersonaId } from "@/types";
+import Image from "next/image";
 
 interface Props {
   personas: Persona[];
@@ -23,11 +24,11 @@ export default function PersonaSwitcher({ personas, activeId, onSwitch }: Props)
         <button
           key={p.id}
           onClick={() => onSwitch(p.id)}
-          className={`px-4 py-2 rounded-xl border text-sm font-medium transition-all duration-200 ${
+          className={`flex items-center px-4 py-2 rounded-xl border text-sm font-medium transition-all duration-200 ${
             activeId === p.id ? colorMap[p.color] : inactiveColor
           }`}
         >
-          <span className="mr-2">{p.avatar}</span>
+          <Image src={p.avatar} alt={p.name} width={24} height={24} className="rounded-full mr-2 object-cover shrink-0" />
           {p.name}
         </button>
       ))}
